@@ -102,93 +102,97 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g cnpm –registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
 <p><code>cnpm</code> 是一个 <code>npm</code> 的替代工具，由淘宝团队维护，主要用于加速 <code>npm</code> 包的下载</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps1-1741792506581-2.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps1-1741792506581-2.jpg" alt="img" />
 </li>
 <li><p>安装<code>hexo</code></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps2-1741792545614-5.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps2-1741792545614-5.jpg" alt="img" />
 </li>
 <li><p>初始化<code>hexo</code>源码</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps3-1741792574469-8.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps3-1741792574469-8.jpg" alt="img" />
 </li>
 <li><p>安装<code>hexo</code>本地服务器</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-server –save</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps4-1741792594139-11.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps4-1741792594139-11.jpg" alt="img" />
 </li>
 <li><p>启动服务器</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps5-1741792603940-14.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps5-1741792603940-14.jpg" alt="img" />
+
 <p>初始博客界面如下</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps6-1741792622575-17.jpg" alt="img"></p>
-</li>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps6-1741792622575-17.jpg" alt="img" /></li>
 </ol>
 <h5 id="本地部署"><a href="#本地部署" class="headerlink" title="本地部署"></a>本地部署</h5><ol>
 <li><p>创建密钥</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ssh-keygen -t rsa -C ‘注册时的邮箱地址’</span><br></pre></td></tr></table></figure>
 
 <p>查看<code>C:\user\86189\.ssh\id_ras.pub</code>文件中的ssh</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps7-1741792767725-20.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps7-1741792767725-20.jpg" alt="img" />
 </li>
 <li><p>GitHub中添加公钥ssh</p>
 <p>复制上图的ssh密钥，在已登陆的Github主页点击头像，之后点击Settings设置，并按下图顺序点击，创建新的ssh密钥，结果如下：</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312233019880-1741793421393-58.png" alt="image-20250312233019880"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312233019880-1741793421393-58.png" alt="image-20250312233019880" />
 </li>
 <li><p>本地验证密钥</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps9.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps9.jpg" alt="img" />
 </li>
 <li><p>本地绑定<code>Github</code></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config –global user.name “注册时用户名”</span><br><span class="line">$ git config –global user.email “注册时邮箱”</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps10-1741792800356-27.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps10-1741792800356-27.jpg" alt="img" />
 </li>
 <li><p>部署设置</p>
 <p>用记事本打开并修改本地仓库目录下的<code>_config.yml</code>文件，拉到最后，填写deploy模块</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312232031473-1741792832818-32.png" alt="image-20250312232031473"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312232031473-1741792832818-32.png" alt="image-20250312232031473" />
+
 <p>这一串填写的意思是，hexo部署的时候，会以git部署到指定的repository里面的指定branch。</p>
 </li>
 <li><p>安装更新工具</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
 
 <p>用于更新<code>github</code>中的博客</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps11-1741792818754-30.jpg" alt="img"></p>
-</li>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps11-1741792818754-30.jpg" alt="img" /></li>
 </ol>
 <h4 id="三、创建博客"><a href="#三、创建博客" class="headerlink" title="三、创建博客"></a>三、创建博客</h4><ol>
 <li><p>新建测试文章</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new “文章名称”</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps12-1741792874172-35.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps12-1741792874172-35.jpg" alt="img" />
 </li>
 <li><p>生成文件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps13-1741792883404-38.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps13-1741792883404-38.jpg" alt="img" />
 </li>
 <li><p>本地预览</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312232151588-1741792913084-40.png" alt="image-20250312232151588"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312232151588-1741792913084-40.png" alt="image-20250312232151588" />
+
 <p>界面如下</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps14-1741792929968-43.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps14-1741792929968-43.jpg" alt="img" />
 </li>
 <li><p>部署到<code>GitHub</code></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps15-1741792936957-46.jpg" alt="img"></p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps16-1741792945272-49.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps15-1741792936957-46.jpg" alt="img" />
+
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps16-1741792945272-49.jpg" alt="img" />
+
 <p>此时已经成功上传github，查看仓库可以发现多了一些文件夹</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps17-1741792993479-52-1741792995465-54.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps17-1741792993479-52-1741792995465-54.jpg" alt="img" />
 </li>
 <li><p>编辑博客</p>
 <p>进入<code>github</code>本地仓库，进入source&#x2F;posts，在这里面选择要更改的博客进行内容编辑，现在应该只有两篇博客</p>
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312232342919-1741793024575-56.png" alt="image-20250312232342919"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/image-20250312232342919-1741793024575-56.png" alt="image-20250312232342919" />
+
 <p>编辑结束后输入</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
 
@@ -203,7 +207,7 @@
 <p>若执行该语句出现报错<code>Could not open a connection to your authentication agent</code>，则先执行如下命令即可：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-agent bash</span><br></pre></td></tr></table></figure>
 
-<p><img src="/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps18-1741793481041-61.jpg" alt="img"></p>
+<img src="%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C%E4%B8%89.assets/wps18-1741793481041-61.jpg" alt="img" />
 
       
     </div>
